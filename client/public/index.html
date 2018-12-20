@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Hacktivoverflow</title>
+    <meta name="google-signin-client_id" content="1030078029065-65rt97j7i4i4n16418t9egjra4oe91ne.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/locale/af.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+  </head>
+  <body style="min-height: 100vh">
+    <noscript>
+      <strong>We're sorry but client doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app" style="min-height: 100vh"></div>
+    <!-- built files will be auto injected -->
+
+    
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-firestore.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC1iXokZRaIn1iqHMyrv00jwEJjVnbK_0Y",
+        authDomain: "stack-overflow-45f39.firebaseapp.com",
+        databaseURL: "https://stack-overflow-45f39.firebaseio.com",
+        projectId: "stack-overflow-45f39",
+        storageBucket: "stack-overflow-45f39.appspot.com",
+        messagingSenderId: "1030078029065"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </body>
+</html>
